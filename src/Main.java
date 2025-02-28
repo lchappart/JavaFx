@@ -3,8 +3,8 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
     @Override
-    public void start(Stage primaryStage) {
-        Exo4 exo1 = new Exo4();
+    public void start(Stage primaryStage) throws Exception {
+        Exo5 exo1 = new Exo5();
         exo1.start(primaryStage);
     }
 

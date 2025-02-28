@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ComboBox fx:id="myComboBox" layoutX="225.0" layoutY="187.0" prefWidth="150.0" promptText="Choisissez une ville">
+         <items>
+            <FXCollections fx:factory="observableArrayList">
+               <String fx:value="Three" />
+               <String fx:value="Two" />
+               <String fx:value="One" />
+            </FXCollections>
+         </items>
+      </ComboBox>
+      <Label layoutX="286.0" layoutY="227.0" />
+   </children>
+</Pane>
